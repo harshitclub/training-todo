@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #18181b;
+  color: #fff;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+}
+
+.todo header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 2rem 0;
+}
+
+.todo header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.todo .addTodo {
+  margin: 0 0 2rem 0;
+}
+
+.todo .addTodo form input {
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.todo .addTodo form input[type="submit"] {
+  background-color: #71717a;
+  color: #fff;
+}
+
+.todo .todos h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="todo">
+      <header>
+        <h1>Todo Application</h1>
+        <img src="./assets/todoLogo.svg" />
+      </header>
+      <section class="addTodo">
+        <form id="todoForm">
+          <input
+            placeholder="Enter your task here..."
+            type="text"
+            name="todoInput"
+          />
+          <input type="submit" value="Add Todo" />
+        </form>
+      </section>
+      <section class="todos">
+        <h2>My Todos</h2>
+        <ul id="todoList"></ul>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
